@@ -1,0 +1,11 @@
+===============================================
+Kavi Wilson
+CSCI 385
+Prof. Fix
+2024/09/05
+===============================================
+Divisors:
+    My code is pretty basic but it works. I was confused about something in one of the example cases you gave. You said that an input of 12 should result in the message "The divisors of 12 are 1, 3, 4, and 12." But if this is an exhaustive list of divisors, it should include 2 and 6. if it's a list of prime divisors, it shouldn't include 4 and 12, and should still include 2. My code outputs an exhaustive list.
+
+Triangles:
+    I implemented a few extra basic features, like moving the triangle, selecting the triangle to manipulate, deleting triangles, and bringing triangles to the front. The deletion function only allows you to delete down to one triangle.

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sample WebGL </title>
+    <script src="gl-matrix-min.js" defer></script>
+    <script src="triangle.js" defer></script>
+    <style>
+
+  div#d-pad {
+    width: 130px;
+    height: 100px;
+    display: grid;
+    grid: 43px 43px 43px / 33px 33px 33px;
+    margin-top: 5px;
+    margin-left: 5px;
+    place-items: center;
+  }
+
+  button#left {
+    width: 43px;
+    height: 33px;
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  button#right {
+    width: 43px;
+    height: 33px;
+    grid-row-start: 2;
+    grid-column-start: 3;
+  }
+
+  button#up {
+    width: 43px;
+    height: 33px;
+    grid-row-start: 1;
+    grid-column-start: 2;
+  }
+
+  button#down {
+    width: 43px;
+    height: 33px;
+    grid-row-start: 3;
+    grid-column-start: 2;
+  }
+    </style>
+  </head>
+  <body>
+    <canvas id="glcanvas" width="640" height="512"></canvas><br>
+    <button onClick="rotateFrame(12)">rotate</button>
+    <button onClick="scaleFrame(125)">embiggen</button>
+    <button onClick="scaleFrame(80)">deshrinken</button>
+    <button onClick="populate()">populate</button>
+
+    <button onClick="select()">select triangle to manipulate</button>
+    <button onClick="delete_tri()">delete current triangle</button>
+    <button onClick="front()">bring to front</button>
+    <br>
+    <div id="d-pad">
+      <button id="left" onClick="left()">left</button>
+      <button id="right" onClick="right()">right</button>
+      <button id="up" onClick="up()">up</button>
+      <button id="down" onClick="down()">down</button>
+    </div>
+  </body>
+</html>
+

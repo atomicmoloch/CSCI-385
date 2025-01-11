@@ -1,0 +1,16 @@
+Kavi Wilson
+2024/10/01
+
+Scene:
+I replaced the house and the tree with a road, featuring two cars. The sliders now control the cars' positiions in the stage.
+
+Recursive:
+I implemented a Sierpinski triangle pretty much standardly.
+
+Still life:
+Also a pretty unremarkable implementation. Just plopped my 3-d objects on the table.
+
+Animation:
+I wish I had more time to work on this and the still life - I got sick, and have just been out of it the last few days. Anyway this was supposed to/going to be a piston rotating on a flywheel, but I'm out of time to get it to any point where I'm satisfied with it. You mentioned a couple of times in class working on things already turned in to polish them up - I was wondering if I could do something of the sort with this assignment. I'm turning it in as-is though, as you've said is best practice.
+
+-Kavi
